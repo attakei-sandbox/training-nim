@@ -46,3 +46,10 @@ Nim言語の練習ログです。
   * Hello world
   * Static contents
   * Dynamic contents
+
+その他
+------
+
+* 特にコメント内に明記がない限り、 
+このファイルのフォルダ上で
+``nim c -r -o:a.out SRC (ARGS)`` でコンパイルと実行を行う
