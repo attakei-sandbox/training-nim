@@ -10,7 +10,7 @@
 ]##
 
 
-proc main(goal: int) =
+proc main*(goal: int) =
   ## FizzBuzzのメイン処理
   ## 仕様については省略
   var i: int = 0
