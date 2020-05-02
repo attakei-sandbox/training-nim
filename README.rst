@@ -21,7 +21,7 @@ Nim言語の練習ログです。
 
 * FizzBuzz: ループと算術演算
 
-  * 数値固定のFizzBuzz
+  * (done) 数値固定のFizzBuzz
   * プロンプトで入力してもらうやつ
   * CLIの引数で決めるやつ
 
