@@ -11,7 +11,7 @@
   * https://nim-lang.org/docs/io.html
 ]##
 import strutils
-import simple
+import fizzbuzz
 
 
 if isMainModule:
@@ -22,4 +22,4 @@ if isMainModule:
     if not isDigit(g):
       echo "Not digit!"
       quit(1)
-  main(parseInt(goal))
+  runFizzBuzz(parseInt(goal))
