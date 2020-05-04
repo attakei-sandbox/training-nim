@@ -14,6 +14,13 @@ type GachaItem* = object
   weight*: int  # 確率ウェイト
 
 
+proc cmpRarelity*(x, y: GachaItem): int =
+  ## レアリティの比較処理
+  if x.label < y.label: -1
+  elif x.label == y.label: 0
+  else: 1
+
+
 proc lottery*(items: seq[GachaItem]): GachaItem =
   ## ガチャ処理
   ## 候補からウェイトに従い、1個ピックアップする
