@@ -20,6 +20,6 @@ proc resp_any(req: Request) {.async.} =
 
 
 if isMainModule:
-  ## main扱いで呼ばれた時に限り、100までのFizzBuzzを標準出力する
+  ## main扱いで呼ばれた時に限り、どんなパスに対しても、hello worldを返すサーバーを起動
   let server = newAsyncHttpServer()
   waitFor server.serve(Port(8080), resp_any)
