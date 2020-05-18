@@ -43,7 +43,7 @@ Nim言語の練習ログです。
 
 * Webサーバー: リクエスト対処とサービス処理
 
-  * Hello world
+  * (done) Hello world
   * Static contents
   * Dynamic contents
 
